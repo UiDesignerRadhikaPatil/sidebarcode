@@ -19,7 +19,7 @@ main {
 
 /* Sidebar */
 .sidebar {
-  background: rgb(0, 7, 61);
+  background:linear-gradient(179deg, #042e4e, #4c63c7);
   color: white;
   height: 100vh;
   overflow-y: auto;
@@ -32,7 +32,7 @@ main {
   padding: 15px 10px;
 }
 .logo {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 0;
 }
 .bars {
@@ -58,6 +58,22 @@ main {
   color: white;
 }
 
+
+.logout {
+  display: flex;
+  align-items:first baseline;
+  height: 30px;
+  padding: 10px;
+}
+.logout input {
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  background: rgb(238, 238, 238);
+  margin-top: 700px;
+
+  color: white;
+}
 .routes {
   margin-top: 15px;
   display: flex;
@@ -74,12 +90,12 @@ main {
 }
 .link:hover {
   border-right: 4px solid white;
-  background: rgb(45, 51, 89);
+  background: rgb(108, 115, 158);
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .active {
   border-right: 4px solid white;
-  background: rgb(45, 51, 89);
+  background: rgb(53, 69, 173);
 }
 .link_text {
   white-space: nowrap;
